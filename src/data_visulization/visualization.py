@@ -84,3 +84,18 @@ def detectar_outliers_iqr(df, coluna, ano):
     outliers = df_ano[(df_ano[coluna] < limite_inferior) | (df_ano[coluna] > limite_superior)]
     print(f'{len(outliers)} outliers encontrados na coluna "{coluna}" para o ano {ano}')
     return outliers
+
+def converter_para_csv(dataset, novo_caminho):
+    """
+    Converte um DataFrame em um novo arquivo CSV.
+
+    Parâmetros:
+    dataset (pd.DataFrame): O DataFrame que será convertido.
+    novo_caminho (str): O caminho e nome do novo arquivo CSV.
+    """
+    try:
+        # Salvar o DataFrame como CSV
+        dataset.to_csv(novo_caminho, index=False)  # index=False evita a inclusão do índice no CSV
+        print(f"Arquivo CSV salvo com sucesso em: {novo_caminho}")
+    except Exception as e:
+        print(f"Ocorreu um erro ao salvar o arquivo CSV: {e}")
