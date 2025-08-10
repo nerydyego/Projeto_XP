@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-def grafico_consumo_por_ano_estados(df, ano):
+def grafico_por_estados(df, ano):
     data = ano
     df_filtro = df[df['ano'] == data]
 
@@ -18,7 +18,7 @@ def grafico_consumo_por_ano_estados(df, ano):
     plt.tight_layout()
     plt.show()
 
-def grafico_consumo_por_ano_estados(df, ano):
+def grafico_valor_por_ano_estados(df, ano):
     """
     Gera gráfico de barras com o consumo de energia por estado em um determinado ano.
 
