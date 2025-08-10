@@ -140,14 +140,14 @@ os registros serão descatados
 
 dicionario 
 #### Documentação dos dados
-* <str>Codigo BR</str> Código do item, conforme o Catálogo de Materiais (CATMAT), este código é um identificador único utilizado para padronizar os produtos no mercado de saúde brasileiro, facilitando a comparação de preços e a consulta de dados.
-* <str>Descrição CATMAT</str> Descrição do item conforme o Catálogo de Materiais (CATMAT), que especifica o nome e as características do medicamento ou insumo, padronizando a nomenclatura para facilitar a identificação.
-* <str>Unidade de Fornecimento</str> Unidade na qual o item é fornecido e comercializado (ex.: comprimido, ampola, frasco). Define a forma de apresentação do produto para padronização e comparabilidade nas aquisições de insumos de saúde.
-* <str>Generico</str> Indica se o item é um medicamento genérico, conforme a regulamentação da Agência Nacional de Vigilância Sanitária (Anvisa).
-* <str>Compra</str> Data da compra informada pela instituição compradora.
-* <str>Modalidade da Compra</str> Modalidade utilizada para a aquisição do item, como licitação, pregão, compra direta, entre outras, conforme a legislação de compras públicas. A modalidade define o processo seguido na aquisição do item.
-* <str>Insercao</str> Data de inserção da informação no sistema BPS, permitindo o acompanhamento e a atualização dos registros ao longo do tempo.
-* <str>Tipo de compra</str> Tipo Compra Classificação da compra, como emergencial, regular, entre outras, para indicar o contexto ou a natureza da aquisição. Este campo ajuda a contextualizar a necessidade e a urgência da compra realizada
+* <b>Codigo BR</b> -Código do item, conforme o Catálogo de Materiais (CATMAT), este código é um identificador único utilizado para padronizar os produtos no mercado de saúde brasileiro, facilitando a comparação de preços e a consulta de dados.
+* <str>Descrição CATMAT</str> - Descrição do item conforme o Catálogo de Materiais (CATMAT), que especifica o nome e as características do medicamento ou insumo, padronizando a nomenclatura para facilitar a identificação.
+* <str>Unidade de Fornecimento</str> - Unidade na qual o item é fornecido e comercializado (ex.: comprimido, ampola, frasco). Define a forma de apresentação do produto para padronização e comparabilidade nas aquisições de insumos de saúde.
+* <str>Generico</str> - Indica se o item é um medicamento genérico, conforme a regulamentação da Agência Nacional de Vigilância Sanitária (Anvisa).
+* <str>Compra</str> - Data da compra informada pela instituição compradora.
+* <str>Modalidade da Compra</str> - Modalidade utilizada para a aquisição do item, como licitação, pregão, compra direta, entre outras, conforme a legislação de compras públicas. A modalidade define o processo seguido na aquisição do item.
+* <str>Insercao</str> - Data de inserção da informação no sistema BPS, permitindo o acompanhamento e a atualização dos registros ao longo do tempo.
+* <str>Tipo de compra</str> - Tipo Compra Classificação da compra, como emergencial, regular, entre outras, para indicar o contexto ou a natureza da aquisição. Este campo ajuda a contextualizar a necessidade e a urgência da compra realizada
 * <str>Fabricante</str> Nome da empresa que fabrica o medicamento ou insumo adquirido. O fabricante é responsável pela produção e qualidade do produto.
 * <str>CNPJ Fabricante</str> Cadastro Nacional da Pessoa Jurídica (CNPJ) do fabricante, utilizado para identificar a empresa responsável pela produção do medicamento ou insumo no mercado brasileiro.
 * <str>Fornecedor</str> Nome da empresa que forneceu o item à instituição. O fornecedor é responsável pela entrega do produto, muitas vezes em parceria com o fabricante.
