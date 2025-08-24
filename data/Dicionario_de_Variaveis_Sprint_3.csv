@@ -1,0 +1,23 @@
+Variavel;Tipo de dado;Descrição
+ano_compra;int64;Data da compra informada pela instituição compradora.
+nome_instituicao;object;Nome da instituição que realizou a compra do item, como hospitais, secretarias de saúde e outras entidades do Sistema Único de Saúde (SUS) ou privadas.
+cnpj_instituicao;object;"Cadastro Nacional da Pessoa Jurídica (CNPJ) da instituição
+compradora, que identifica a entidade responsável pela
+aquisição do item."
+municipio_instituicao;object;Município onde a instituição compradora está localizada. Este campo permite análises geográficas sobre a distribuição das aquisições.
+uf;object;Unidade Federativa (UF) da instituição compradora. Identifica o estado brasileiro em que a instituição está localizada.
+insercao;object;Data de inserção da informação no sistema BPS, permitindo o acompanhamento e a atualização dos registros ao longo do tempo.
+codigo_br;int64;Código do item, conforme o Catálogo de Materiais (CATMAT). Este código é um identificador único utilizado para padronizar os produtos no mercado de saúde brasileiro, facilitando a comparação de preços e a consulta de dados.
+descricao_catmat;object;Descrição do item conforme o Catálogo de Materiais (CATMAT), que especifica o nome e as características do medicamento ou insumo, padronizando a nomenclatura para facilitar a identificação.
+unidade_fornecimento;object;Unidade na qual o item é fornecido e comercializado (ex.: comprimido, ampola, frasco). Define a forma de apresentação do produto para padronização e comparabilidade nas aquisições de insumos de saúde
+generico;object;Indica se o item é um medicamento genérico, conforme a regulamentação da Agência Nacional de Vigilância Sanitária (Anvisa).
+modalidade_compra;object;Modalidade utilizada para a aquisição do item, como licitação, pregão, compra direta, entre outras, conforme a legislação de compras públicas. A modalidade define o processo seguido na aquisição do item.
+tipo_compra;object;Classificação da compra, como emergencial, regular, entre outras, para indicar o contexto ou a natureza da aquisição. Este campo ajuda a contextualizar a necessidade e a urgência da compra realizada.
+unidade_fornecimento_capacidade;object;(DescriÃ§Ã£o a ser preenchida)
+cnpj_fornecedor;object;Cadastro Nacional da Pessoa Jurídica (CNPJ) do fornecedor, utilizado para identificar a empresa que realizou a venda e entrega do produto à instituição
+fornecedor;object;Nome da empresa que forneceu o item à instituição. O fornecedor é responsável pela entrega do produto, muitas vezes em parceria com o fabricante.
+cnpj_fabricante;object;Cadastro Nacional da Pessoa Jurídica (CNPJ) do fabricante, utilizado para identificar a empresa responsável pela produção do medicamento ou insumo no mercado brasileiro.
+fabricante;object;Nome da empresa que fabrica o medicamento ou insumo adquirido. O fabricante é responsável pela produção e qualidade do produto
+qtd_itens_comprados;int64;Quantidade do item adquirida na transação. Informa o volume comprado pela instituição e permite análises de demanda e consumo.
+preco_unitario;float64;Preço pago por unidade do item adquirido. Este valor é informado com base no valor efetivamente negociado e permite a comparação de preços entre diferentes compras e fornecedores.
+preco_total;float64;Preço total pago pelo item
