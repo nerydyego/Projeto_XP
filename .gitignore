@@ -28,3 +28,5 @@ hipotese
 # Ignore arquivos de configuração de SASS
 .sass-cache
 
+# Ignore dashboard
+dashboard_1.pbix
